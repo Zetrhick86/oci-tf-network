@@ -98,8 +98,3 @@ data "oci_core_services" "this" {
   }
 
 }
-
-
-terraform {
-  experiments = [module_variable_optional_attrs]
-}
