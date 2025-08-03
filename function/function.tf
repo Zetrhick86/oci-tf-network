@@ -366,10 +366,6 @@ resource "oci_resource_scheduler_schedule" "these" {
   time_starts = each.value.time_starts
 }
 
-
-terraform {
-  experiments = [module_variable_optional_attrs]
-
   required_version = ">1.5.0"
 
   required_providers {
