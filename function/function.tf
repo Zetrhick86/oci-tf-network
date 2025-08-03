@@ -368,8 +368,7 @@ resource "oci_resource_scheduler_schedule" "these" {
 
 
 terraform {
-  experiments = [module_variable_optional_attrs]
-
+  
   required_version = ">1.5.0"
 
   required_providers {
